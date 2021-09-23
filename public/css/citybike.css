@@ -1,0 +1,154 @@
+﻿
+		#map
+		{
+			font-family: 微軟正黑體;
+			font-size: 32pt;
+		}
+		.cdiv
+		{
+			position:absolute;
+			left:10%;
+			top:15%;
+		}
+        .imgg
+		{
+            width:50%;
+            height:35%;
+        }
+        .wh
+		{
+            width:50%;
+            height:35%;
+        }
+        .brr
+		{
+            height:35%;
+        }
+        h2
+		{
+            font-size:18pt;
+            font-family: 微軟正黑體;
+            color:#FFF;
+        }
+        a
+		{
+            font-family: 微軟正黑體;
+            font-size:16pt;
+            color:#FFF;
+        }
+        a1
+		{
+            font-size:16pt;
+            font-family: 微軟正黑體;
+            color:#FFF;
+        }
+        a2
+		{
+            font-size:18pt;
+            font-family: 微軟正黑體;
+            color:#000;
+        }
+        a3
+		{
+            font-size:2816pt;
+            font-family: 微軟正黑體;
+            color:#000;
+        }
+        ti
+        {
+            font-size:90%;
+            font-family: 微軟正黑體;
+        }
+        #uli li
+        {
+            float:left;
+
+            margin:0px 10px 0px 0px;
+        }
+        #titleText
+        {
+            font-size:18pt;
+            font-family: 微軟正黑體;
+            color:#FFF;
+        }
+		#BikeQ
+		{
+            font-size:13pt;
+			weidth:98%;
+		}
+		#BikeQtd1
+		{
+			weidth:46%;
+		}
+		#BikeQtd2
+		{
+			weidth:21%;
+		}
+		#BikeQtd3
+		{
+			weidth:21%;
+		}
+		#footText
+		{
+			 font-size:12pt;
+			 font-family:微軟正黑體;
+		}
+        footer
+        {
+            /*padding: ,,0px;*/
+            position:relative;
+            padding:0px;
+            /*position:absolute;
+            bottom:0px;
+            right:0px;*/
+        }
+        #fdiv
+        {
+            font-size:16pt;
+            font-family: 微軟正黑體;
+        }
+        #sdiv
+        {
+            font-size:9pt;
+            /*font-family: 微軟正黑體;*/
+        }
+        select
+        {
+            font-family: 微軟正黑體;
+        }
+        .returnBike
+        {
+            font-family: 微軟正黑體;
+        }
+        option
+        {
+            font-size:12pt;
+            font-family: 微軟正黑體;
+        }
+        #BikeStop
+        {
+            font-family: 微軟正黑體;
+        }
+        #btnlign
+        {}
+        #stopName
+        {
+            font-size:2.8vh;
+            text-align:left;
+            font-family:微軟正黑體;
+			white-space:nowrap;
+        }
+        #addText
+        {
+            color:#000; 
+            text-align:left; 
+            font-size:15pt;
+            font-family: 微軟正黑體;
+        }
+        #addr
+        {
+            color:#000; 
+            text-align:left; 
+            font-size:13pt;
+            font-family: 微軟正黑體;
+        }

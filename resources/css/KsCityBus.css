@@ -1,0 +1,96 @@
+﻿
+        body{
+            font-family:微軟正黑體;
+        }
+        #header{
+            font-family:微軟正黑體;
+            background-color:#FFF;
+        }
+        select{
+            margin-top:10px;
+            height:28pt;
+            font-family:微軟正黑體;
+            margin-bottom:20px;
+        }
+        option{
+            font-family:微軟正黑體;
+        }
+        #busLineC{
+            font-family:微軟正黑體;
+            font-size:16pt;
+            color:#808;
+            width:100%;
+        }
+        #Qdiv{
+            width:80%;
+        }
+        #alert{
+            width:95%;
+        }
+        #LineTitle{
+            background-color:#900;
+            font-size:32pt;
+            color:#FFF;
+            padding:15pt;
+        }
+        footer{
+            font-family:微軟正黑體;
+        }
+        li{
+			font-family:微軟正黑體;
+		}
+        h3{
+            font-family:微軟正黑體;
+        }
+        a{
+            font-family: 微軟正黑體;
+            font-size:16pt;
+            color:#000;
+        }
+        a1{
+            font-size:16pt;
+            font-family: 微軟正黑體;
+            color:#000;
+        }
+        a2{
+            font-size:18pt;
+            font-family: 微軟正黑體;
+            color:#000;
+        }
+        a3{
+            font-size:28pt;
+            font-family: 微軟正黑體;
+            color:#000;
+        }
+        ti
+        {
+            font-size:90%;
+            font-family: 微軟正黑體;
+        }
+        /*uli li
+        {
+            float:left;
+            margin:0px 10px 0px 0px;
+        }*/
+        #liv
+        {
+            //float:right;
+			width: 110pt;
+            //margin:0px 50px 0px 0px;
+        }
+        #titleText
+        {
+            font-size:20pt;
+            font-family: 微軟正黑體;
+            color:#000;
+        }
+        #fdiv
+        {
+            font-size:18pt;
+            /*font-family: 微軟正黑體;*/
+        }
+		text
+		{
+			font-size:11pt;
+			color:#000;
+		}
