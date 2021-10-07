@@ -229,7 +229,8 @@ class TkoBusLineController extends Controller
 	/**/
 	public function seLineD($id)
 	{
-		$line= $this->db->query("SELECT busline_idop.ID, busline_data.nameZh, busline_data.ddesc, busline_data.departureZh, busline_data.destinationZh, busline_idop.BusLineEnable FROM busline_idop JOIN busline_data ON busline_idop.ID=busline_data.ID WHERE busline_idop.ID='".$id."'");
+		$line= $this->db->query("SET NAMES 'utf8'");
+		$line= $this->db->query("SELECT busline_idop.ID, busline_data.nameZh, busline_data.ddesc, busline_data.departureZh, busline_data.destinationZh, busline_idop.BusLineEnable FROM busline_idop JOIN busline_data ON busline_idop.ID=busline_data.ID WHERE busline_idop.ID=".$id);
 		return $line->fetchAll();//json_encode();
 	}
 	/**/

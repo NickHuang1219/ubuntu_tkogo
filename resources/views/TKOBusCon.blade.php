@@ -2,8 +2,8 @@
 <html lang="{{ app()->getLocale() }}">
 <head>
 	<title>高雄市公車</title>
-	<link rel="shortcut icon" href="{{ URL::asset('resources/img/ks.ico') }}">
-    <link href="{{ URL::asset('resources/css/bootstrap.min.css') }}" rel="stylesheet">
+	<link rel="icon" href="{{ URL::asset('img/ks.ico') }}">
+    <link href="{{ URL::asset('css/bootstrap.min.css') }}" rel="stylesheet">
 	
     
     
@@ -22,20 +22,20 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rdel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="{{ URL::asset('resources/css/clean-blog.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/clean-blog.min.css') }}" rel="stylesheet">
 
     <!-- 一般的 -->
-    <link href="{{ URL::asset('resources/css/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ URL::asset('resources/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ URL::asset('resources/css/bootstrap-grid.css') }}" rel="stylesheet">
-    <link href="{{ URL::asset('resources/css/bootstrap-grid.min.css') }}" rel="stylesheet">
-    <link href="{{ URL::asset('resources/css/bootstrap-reboot.css') }}" rel="stylesheet">
-    <link href="{{ URL::asset('resources/css/bootstrap-reboot.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/bootstrap-grid.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/bootstrap-grid.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/bootstrap-reboot.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/bootstrap-reboot.min.css') }}" rel="stylesheet">
 	
 	<!-- Page UI/UX -->
-	<script src="{{ URL::asset('resources/js/1.8.2_jquery_min.js') }}"></script>
-	<script src="{{ URL::asset('resources/js/gotop.js') }}"></script>
-	<script src="{{ URL::asset('resources/js/KsCityBus.js') }}"></script>
+	<script src="{{ URL::asset('js/1.8.2_jquery_min.js') }}"></script>
+	<script src="{{ URL::asset('js/gotop.js') }}"></script>
+	<script src="{{ URL::asset('js/KsCityBus.js') }}"></script>
 	
 	<script>
 		function Toback(){
@@ -124,7 +124,7 @@
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="BusTop" style="background-color:#fff;">
 			<div class="container" >
 				<font id="titText" style="font-size:3vh;">
-					<img src="{{ URL::asset('resources/img/ksbus1.png') }}" width="30%">
+					<img src="{{ URL::asset('img/ksbus1.png') }}" width="30%">
 					高雄市公車
 				</font>
 				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -155,12 +155,12 @@
 			@if($topBtn)
 			<div style="position:fixed;top:75%;right:0%;z-index:999;">
 				<a id="gotop" href="#" onclick="busMenu()">
-					<img src="{{ URL::asset('resources/img/gotop.png') }}" width="40vw">
+					<img src="{{ URL::asset('img/gotop.png') }}" width="40vw">
 				</a>
 			</div>
 			<div style='position: fixed; top: 50%; right: 0%; z-index: 999;'>
 				<a id='share_up' onclick="regetbustime({{$lineId}})" title='更新即時動態' alt='更新即時動態' class="myMOUSE">
-					<img src="{{ URL::asset('resources/img/remove.png') }}" width='40vw'>
+					<img src="{{ URL::asset('img/remove.png') }}" width='40vw'>
 				</a>
 			</div>
 			@endif
@@ -256,7 +256,7 @@
 						夏日清涼&ensp;冬天暖心
 					</font><br>-->
 					<font style="font-size:2.8vh;">
-						<img src="{{ URL::asset('resources/img/klog.png') }}" width='50vw'>
+						<img src="{{ URL::asset('img/klog.png') }}" width='50vw'>
 						<I style="font-size:2.8vh;">旅遊台灣&ensp;首選高雄</I>
 					</font><br>
 					<font style="font-size:2vh;">大腳走高雄 power by Laravel 6</font><br>
@@ -272,6 +272,6 @@
     <script src="{{ URL::asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="{{ URL::asset('resources/js/clean-blog.min.js') }}"></script>	
+    <script src="{{ URL::asset('js/clean-blog.min.js') }}"></script>	
 </body>
 </html>

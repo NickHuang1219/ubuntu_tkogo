@@ -44,8 +44,8 @@ class TaiwanTRAController extends Controller
 								'borColor'=>'',
 								'titleImg'=>"{{ URL::asset('resources/img/tkoMRT.png') }}",
 								'CountiesID'=>'',
-								// 'Counties'=>$this->Counties(''),
-								'Counties'=>null,
+								'Counties'=>$this->Counties(''),
+								//'Counties'=>null,
 								'Trastationd'=>null,
 		]);
 	}
@@ -57,8 +57,10 @@ class TaiwanTRAController extends Controller
 		$i = 0;
 		$countiesDOM = '<option value="C">請 選 擇 縣 市</option>';
 		
+		$counties = $this->db->query("SET NAMES 'utf8'");
 		$counties = $this->db->query("SELECT * FROM counties WHERE TRAop=1 ORDER BY id asc");
-		//$line = $this->db->query('SELECT * FROM mrt where ODMRT_Code>=100 AND ODMRT_Code<200');
+		$line = $this->db->query("SET NAMES 'utf8'");
+		$line = $this->db->query('SELECT * FROM mrt where ODMRT_Code>=100 AND ODMRT_Code<200');
 		return$this->row=$counties->fetchAll();
 		$countiesD = count($this->row);
 	}

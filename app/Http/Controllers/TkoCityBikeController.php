@@ -53,6 +53,7 @@ class TkoCityBikeController extends Controller
 		#-------------------------
 		#變數初始化
 		#-------------------------
+		$line = $this->db->query("SET NAMES 'utf8'");
 		if($id=='MRT'){
 			$line = $this->db->query('SELECT * FROM bikedata where class="M" AND Enable=1');
 			$this->row=$line->fetchAll();

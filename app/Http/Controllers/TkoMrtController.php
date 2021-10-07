@@ -74,6 +74,7 @@ class TkoMrtController extends Controller
 	public function MrtLine($id){
 		$lineD = array();
 		$i = 0;
+		$line = $this->db->query("SET NAMES 'utf8'");
 		if($id=='r'){
 			$line = $this->db->query('SELECT * FROM mrt where ODMRT_Code>=100 AND ODMRT_Code<200');
 			$this->row=$line->fetchAll();
